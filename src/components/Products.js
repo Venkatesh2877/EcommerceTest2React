@@ -44,6 +44,7 @@ export default function Products(props) {
     store.dispatch(createProducts(newProduct));
     store.dispatch(setDisplay("All"));
     setEditMode(false);
+    alert("Update done");
   };
 
   return (
